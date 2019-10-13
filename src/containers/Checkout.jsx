@@ -21,10 +21,7 @@ const Checkout = props => {
           <div className="Checkout-item" key={item.id}>
             <div className="Checkout-element">
               <h4>{item.title}</h4>
-              <span>
-$
-                {item.price}
-              </span>
+              <span>{` $ ${item.price}`}</span>
             </div>
             <i
               role="button"
